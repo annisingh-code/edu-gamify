@@ -24,7 +24,6 @@ const userSlice = createSlice({
       state.xp += action.payload;
       state.level = Math.floor(Math.sqrt(state.xp / 100)) + 1;
     },
-    // ✨ NEW ACTION: Record a finished quiz
     completeQuiz: (state, action) => {
       const { quizId, score, maxScore, category, difficulty } = action.payload;
       state.quizHistory.push({

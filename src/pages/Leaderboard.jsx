@@ -18,7 +18,7 @@ export default function Leaderboard() {
   const restOfList = mockLeaderboardData.slice(3);
 
   return (
-    // ✨ NEW UNIFIED GRADIENT BACKGROUND ✨
+  
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-cyan-100 p-6 md:p-10 flex flex-col items-center">
       <div className="max-w-4xl w-full">
         <div className="text-center mb-10">

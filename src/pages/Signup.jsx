@@ -37,11 +37,11 @@ export default function Signup() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 120 }}
-        // Matches Login.jsx exactly with texture and glassmorphism
+        
         className="bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] backdrop-blur-xl p-8 md:p-10 rounded-[32px] shadow-xl w-full max-w-md border border-white/60"
       >
         <div className="flex flex-col items-center mb-10">
-           {/* Logo with same animation as Login */}
+          
           <motion.div 
             initial={{ y: -20, opacity: 0 }} 
             animate={{ y: 0, opacity: 1 }} 

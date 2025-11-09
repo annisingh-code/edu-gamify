@@ -6,7 +6,7 @@ import { setUser, setError, setLoading } from "../redux/userSlice";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Mail, Lock, LogIn } from "lucide-react";
-// ✨ IMPORT NEW LOGO COMPONENT
+
 import Logo from "../components/Logo";
 
 export default function Login() {
@@ -34,7 +34,7 @@ export default function Login() {
   };
 
   return (
-    // ✨ UPDATED BACKGROUND: Matches Dashboard & Profile consistency
+  
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-cyan-100 flex items-center justify-center p-4">
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
@@ -43,7 +43,7 @@ export default function Login() {
         className="bg-white/80 backdrop-blur-xl p-8 md:p-10 rounded-3xl shadow-xl w-full max-w-md border border-white/60"
       >
         <div className="flex flex-col items-center mb-8">
-          {/* ✨ NEW LOGO IMPLEMENTATION ✨ */}
+      
           <motion.div 
             initial={{ y: -20, opacity: 0 }} 
             animate={{ y: 0, opacity: 1 }} 
