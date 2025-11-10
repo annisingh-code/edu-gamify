@@ -5,7 +5,7 @@ export default function QuizCard({ quiz, bestScore }) {
   const navigate = useNavigate();
 
   // Calculate estimated time (e.g., 1 minute per question)
-  const estimatedTime = quiz.questions ? `${quiz.questions.length} min` : 'N/A';
+  const estimatedTime = quiz.questions ? `${quiz.questions.length} min` : "N/A";
 
   return (
     <div className="group relative bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:-translate-y-1 overflow-hidden">
