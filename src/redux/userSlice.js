@@ -8,7 +8,7 @@ const initialState = {
   xp: 0,
   level: 1,
   badges: [],
-  quizHistory: [], // ✨ NEW: To store past quiz results for AI
+  quizHistory: [], //  To store past quiz results for AI
 };
 
 const userSlice = createSlice({

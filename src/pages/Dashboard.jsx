@@ -33,7 +33,7 @@ export default function Dashboard() {
         animate="visible"
         className="max-w-[1800px] mx-auto space-y-8"
       >
-        {/* --- HEADER with Texture --- */}
+     
         <motion.header
           variants={itemVariants}
           className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] backdrop-blur-md p-6 md:p-8 rounded-3xl shadow-sm border border-white/50"

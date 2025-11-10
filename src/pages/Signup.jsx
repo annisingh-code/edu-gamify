@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-// Make sure this path matches your project structure
 import { signupUser } from "../firebase/authFunctions";
 import { setUser, setError, setLoading } from "../redux/userSlice";
 import { useNavigate, Link } from "react-router-dom";

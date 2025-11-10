@@ -141,8 +141,7 @@ export default function QuizPage() {
     totalQuestions > 0 ? (currentIndex / totalQuestions) * 100 : 0;
 
   if (isCompleted) {
-    // ... (Results screen code remains the same, omitted for brevity but KEEP IT when copying full file if needed,
-    // actually I will include it to be safe)
+    
     const latestBadge = badges[badges.length - 1];
     return (
       <div className="min-h-screen bg-blue-50 flex items-center justify-center p-4">
@@ -200,7 +199,6 @@ export default function QuizPage() {
       </div>
     );
 
-  // ✨ FIXED VARIANTS: Added opacity: 1 to ensure it doesn't disappear
   const shakeVariants = {
     shake: {
       x: [0, -10, 10, -10, 10, 0],

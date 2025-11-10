@@ -14,7 +14,7 @@ import {
   UserPlus,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-// ✨ IMPORT THE LOGO
+//  IMPORT THE LOGO
 import Logo from "./Logo";
 
 export default function Navbar() {
@@ -61,7 +61,7 @@ export default function Navbar() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-white/20 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
-            {/* ✨ USE LOGO COMPONENT HERE ✨ */}
+            {/*  USE LOGO COMPONENT HERE  */}
             <div
               className="flex-shrink-0 cursor-pointer"
               onClick={() => navigate(user ? "/dashboard" : "/")}
